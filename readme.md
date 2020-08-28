@@ -88,9 +88,6 @@ Via a `Pull Request` on the repository.
 - [Sequelieze](https://www.npmjs.com/package/sequelize)
 - [Dotenv](https://www.npmjs.com/package/dotenv)
 
-## Collaborators
-There were no other contributors to this project.
-
 ## Test
   API endpoints are tested via `Insomnia Core` in the walkthrough video.
   ```
