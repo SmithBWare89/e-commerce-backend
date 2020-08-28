@@ -22,6 +22,9 @@ ProductTag.init(
       references: {
         model: Product,
         key: 'id'
+      },
+      validate: {
+        isNumeric: true
       }
     },
     tag_id: {
@@ -30,6 +33,9 @@ ProductTag.init(
       references: {
         model: Tag,
         key: 'id'
+      },
+      validate: {
+        isNumeric: true
       }
     }
   },
