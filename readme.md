@@ -60,6 +60,7 @@ If you're running this on a local machine then please use the port your command 
 The port can be accessed via localhost:<port-number>/api/<endpoint name(category/product/tag)>
 ```
 
+#### Walkthrough Video
 [![E-Commerce BackEnd Walkthrough](./assets/images/walkthrough.jpg)](https://youtu.be/6E1aJoTwUKc)
 
 ## License
