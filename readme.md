@@ -60,7 +60,7 @@ If you're running this on a local machine then please use the port your command 
 The port can be accessed via localhost:<port-number>/api/<endpoint name(category/product/tag)>
 ```
 
-[![E-Commerce BackEnd Walkthrough](./Assets/images/walkthrough.jpg)](https://youtu.be/6E1aJoTwUKc)
+[![E-Commerce BackEnd Walkthrough](./assets/images/walkthrough.jpg)](https://youtu.be/6E1aJoTwUKc)
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
