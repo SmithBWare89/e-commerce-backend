@@ -1,8 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
-
 const sequelize = require('../config/connection');
 
-const db = require('../models')
+// Import Models
+const Tag = require('./Tag');
+const Product = require('./Product');
 
 class ProductTag extends Model {}
 
@@ -19,7 +20,7 @@ ProductTag.init(
       type: DataTypes.INTEGER,
       // Defines As Foreign Key For Product Model Id
       references: {
-        model: db.Product,
+        model: Product,
         key: 'id'
       }
     },
@@ -27,7 +28,7 @@ ProductTag.init(
       type: DataTypes.INTEGER,
       // Defines As Foreign Key For Tag Model Id
       references: {
-        model: db.Tag,
+        model: Tag,
         key: 'id'
       }
     }
